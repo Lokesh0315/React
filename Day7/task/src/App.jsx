@@ -23,24 +23,24 @@ const App = () => {
 
   const students=[
     {id:101, name:"Lokesh", course:"React"},
-    {id:102, name:"Halima", course:"JavaScript"},
-    {id:103, name:"DD", course:"Typing"}]
+    {id:102, name:"Aswin", course:"JavaScript"},
+    {id:103, name:"Kathir", course:"Typing"}]
 
 
   const CompanyName="SLA"
   const TotalEmployees=2000
   const isHiring=true
   const CEO={
-    name:"Halima",
+    name:"Lokesh",
     age:21,
     country:"India"
   }
   const Departments=["FullStack","JavaScript","React"]
   const Employees=[
-    {name:"Lokesh", Dept:"React"},{name:"Abi", Dept:"MERN"},{name:"Ponnunjali", Dept:"Java"}]
+    {name:"Lokesh", Dept:"React"},{name:"Aswin", Dept:"MERN"},{name:"Kathir", Dept:"Java"}]
 
   const getLocation=()=>{
-    return "Nesapakkam"
+    return "Kanchipuram"
   }
 
 
@@ -49,26 +49,26 @@ const App = () => {
     <>
       <div className='bg-gray-400 p-10'>
         
-        <h2 className='bg-white text-black p-3 flex justify-center m-5'>Task-1</h2>
+        <h2 className='bg-white text-black font-bold text-2xl p-3 flex justify-center m-5 font-bold text-2xl'>TASK-1</h2>
         <h1 className='bg-gradient-to-br from-gray-200 to-indigo-700 p-4 m-5'>{course}</h1>
 
-        <h2 className='bg-white text-black p-3 flex justify-center m-5'>Task-2</h2>
+        <h2 className='bg-white text-black font-bold text-2xl p-3 flex justify-center m-5'>TASK-2</h2>
         <div className='bg-gradient-to-br from-gray-200 to-indigo-700 p-4 m-5'><h1>{price}</h1>
         <h1>{discount}</h1></div>
 
-        <h2 className='bg-white text-black p-3 flex justify-center m-5'>Task-3</h2>
+        <h2 className='bg-white text-black font-bold text-2xl p-3 flex justify-center m-5'>TASK-3</h2>
         <h1 className='bg-gradient-to-br from-gray-200 to-indigo-700 p-4 m-5'>{isLogin ? "Welcome User" : "Please Login"}</h1>
 
-        <h2 className='bg-white text-black p-3 flex justify-center m-5'>Task-4</h2>
+        <h2 className='bg-white text-black font-bold text-2xl p-3 flex justify-center m-5'>TASK-4</h2>
         <h1 className='bg-gradient-to-br from-gray-200 to-indigo-700 p-4 m-5'>{profileImage ? "Image Found" : "Image Not Found"}</h1>
 
-        <h2 className='bg-white text-black p-3 flex justify-center m-5'>Task-5</h2>
+        <h2 className='bg-white text-black font-bold text-2xl p-3 flex justify-center m-5'>TASK-5</h2>
         <h1 className='bg-gradient-to-br from-gray-200 to-indigo-700 p-4 m-5'>{email ? "email" : "Email not Available"}</h1>
 
-        <h2 className='bg-white text-black p-3 flex justify-center m-5'>Task-6</h2>
+        <h2 className='bg-white text-black font-bold text-2xl p-3 flex justify-center m-5'>TASK-6</h2>
         <h1 className='bg-gradient-to-br from-gray-200 to-indigo-700 p-4 m-5'>{getCompanyName()}</h1>
 
-        <h2 className='bg-white text-black p-3 flex justify-center m-5'>Task-7</h2>
+        <h2 className='bg-white text-black font-bold text-2xl p-3 flex justify-center m-5'>TASK-7</h2>
         <ul className='bg-gradient-to-br from-gray-200 to-indigo-700 p-4 m-5'>
           {arr.map((e, i) => (
 
@@ -78,7 +78,7 @@ const App = () => {
         </ul>
 
         <div>
-          <h2 className='bg-white text-black p-3 flex justify-center m-5'>Task-8</h2>
+          <h2 className='bg-white text-black font-bold text-2xl p-3 flex justify-center m-5'>TASK-8</h2>
           <div className='flex justify-around'>
             <h3 className='bg-gradient-to-br from-gray-200 to-indigo-700 p-4 m-5'>Name : {obj.Name}</h3>
             <h3 className='bg-gradient-to-br from-gray-200 to-indigo-700 p-4 m-5'>Course : {obj.Course}</h3>
@@ -86,7 +86,7 @@ const App = () => {
           </div>
         </div>
 
-        <h2 className='bg-white text-black p-3 flex justify-center m-5'>Task-9</h2>
+        <h2 className='bg-white text-black font-bold text-2xl p-3 flex justify-center m-5'>TASK-9</h2>
        <div className='bg-gradient-to-br from-gray-200 to-indigo-700 p-4 m-5'>{students.map((e,i)=>(
         <div key={i+1}>
         <p>{e.id}</p>
@@ -94,7 +94,7 @@ const App = () => {
         <p>{e.course}</p></div>
        ))}</div>
 
-       <h2 className='bg-white text-black p-3 flex justify-center m-5'>Task-10</h2>
+       <h2 className='bg-white text-black font-bold text-2xl p-3 flex justify-center m-5'>TASK-10</h2>
        <div className='bg-gradient-to-br from-gray-200 to-indigo-700 p-4 m-5'>
        <h1>{CompanyName}</h1>
        <h1>{TotalEmployees}</h1>
